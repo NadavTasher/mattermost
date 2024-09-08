@@ -320,6 +320,7 @@ const defaultServerConfig: AdminConfig = {
         AmazonS3Trace: false,
         AmazonS3RequestTimeoutMilliseconds: 30000,
         AmazonS3UploadPartSizeBytes: 5242880,
+        AmazonS3StorageClass: 'STANDARD',
         DedicatedExportStore: false,
         ExportDriverName: 'local',
         ExportDirectory: './data/',
