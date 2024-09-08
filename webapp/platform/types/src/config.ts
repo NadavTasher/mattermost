@@ -536,6 +536,7 @@ export type FileSettings = {
     AmazonS3Trace: boolean;
     AmazonS3RequestTimeoutMilliseconds: number;
     AmazonS3UploadPartSizeBytes: number;
+    AmazonS3StorageClass: string;
     DedicatedExportStore: boolean;
     ExportDriverName: string;
     ExportDirectory: string;

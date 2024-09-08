@@ -337,6 +337,7 @@ const defaultServerConfig: AdminConfig = {
         ExportAmazonS3RequestTimeoutMilliseconds: 30000,
         ExportAmazonS3PresignExpiresSeconds: 21600,
         ExportAmazonS3UploadPartSizeBytes: 104857600,
+        ExportAmazonS3StorageClass: 'STANDARD',
     },
     EmailSettings: {
         EnableSignUpWithEmail: true,
