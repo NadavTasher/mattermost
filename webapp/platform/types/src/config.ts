@@ -550,6 +550,7 @@ export type FileSettings = {
     ExportAmazonS3RequestTimeoutMilliseconds: number;
     ExportAmazonS3PresignExpiresSeconds: number;
     ExportAmazonS3UploadPartSizeBytes: number;
+    ExportAmazonS3StorageClass: string;
 };
 
 export type EmailSettings = {

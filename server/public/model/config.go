@@ -1834,6 +1834,10 @@ func (s *FileSettings) SetDefaults(isUpdate bool) {
 	if s.ExportAmazonS3UploadPartSizeBytes == nil {
 		s.ExportAmazonS3UploadPartSizeBytes = NewPointer(int64(FileSettingsDefaultS3ExportUploadPartSizeBytes))
 	}
+
+	if s.ExportAmazonS3StorageClass == nil || *s.ExportAmazonS3StorageClass == "" {
+		s.ExportAmazonS3StorageClass = NewPointer("STANDARD")
+	}
 }
 
 type EmailSettings struct {
